@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "TabBarConfig.h"
 
 @interface AppDelegate ()
 
@@ -17,8 +18,41 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    // 设置主窗口,并设置根控制器
+    self.window = [[UIWindow alloc]init];
+    self.window.frame = [UIScreen mainScreen].bounds;
+    TabBarConfig *tabBarConfig = [[TabBarConfig alloc] init];
+    [self.window setRootViewController:tabBarConfig.tabBarController];
+    [self.window makeKeyAndVisible];
+    
+    [self customizeInterface];
+    
     return YES;
 }
+
+- (void)customizeInterface {
+    [self setUpNavigationBarAppearance];
+}
+
+/**
+ *  设置navigationBar样式
+ */
+- (void)setUpNavigationBarAppearance {
+    UINavigationBar *navigationBarAppearance = [UINavigationBar appearance];
+    
+    // 设置显示的背景颜色
+    navigationBarAppearance.barTintColor = [UIColor colorWithRed:255/255.0 green:81/255.0 blue:81/255.0 alpha:1.0];
+    
+    // 设置字体
+    NSDictionary *textAttributes = @{
+                       NSFontAttributeName: [UIFont boldSystemFontOfSize:18],
+                       NSForegroundColorAttributeName: [UIColor whiteColor],
+                       };
+    
+    [navigationBarAppearance setTitleTextAttributes:textAttributes];
+}
+
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

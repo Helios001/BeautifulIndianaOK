@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  BaseTableViewCell.h
 //  BeautifulIndiana
 //
-//  Created by Helios on 16/1/29.
+//  Created by Helios on 16/2/1.
 //  Copyright © 2016年 Helios. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface BaseTableViewCell : UITableViewCell
 
 @end
-

@@ -9,23 +9,55 @@
 /* Begin PBXBuildFile section */
 		6B3E8DEF1C5B76ED0027D029 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3E8DEE1C5B76ED0027D029 /* main.m */; };
 		6B3E8DF21C5B76ED0027D029 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3E8DF11C5B76ED0027D029 /* AppDelegate.m */; };
-		6B3E8DF51C5B76ED0027D029 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3E8DF41C5B76ED0027D029 /* ViewController.m */; };
 		6B3E8DF81C5B76ED0027D029 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B3E8DF61C5B76ED0027D029 /* Main.storyboard */; };
 		6B3E8DFA1C5B76ED0027D029 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B3E8DF91C5B76ED0027D029 /* Assets.xcassets */; };
 		6B3E8DFD1C5B76ED0027D029 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B3E8DFB1C5B76ED0027D029 /* LaunchScreen.storyboard */; };
+		6B3E8E301C5F09740027D029 /* TabBarConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3E8E2F1C5F09740027D029 /* TabBarConfig.m */; };
+		6B3E8E341C5F274D0027D029 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3E8E331C5F274D0027D029 /* BaseViewController.m */; };
+		6B3E8E371C5F27670027D029 /* YFDiscoveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3E8E361C5F27670027D029 /* YFDiscoveryViewController.m */; };
+		6B3E8E3A1C5F277C0027D029 /* YFIndianaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3E8E391C5F277C0027D029 /* YFIndianaViewController.m */; };
+		6B3E8E3D1C5F27970027D029 /* YFLatestAnnouncementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3E8E3C1C5F27970027D029 /* YFLatestAnnouncementViewController.m */; };
+		6B3E8E401C5F27AD0027D029 /* YFPersonalCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3E8E3F1C5F27AD0027D029 /* YFPersonalCenterViewController.m */; };
+		6B3E8E431C5F27BE0027D029 /* YFShoppingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3E8E421C5F27BE0027D029 /* YFShoppingViewController.m */; };
+		6B3E8E491C5F4A560027D029 /* HttpRequestTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3E8E481C5F4A560027D029 /* HttpRequestTool.m */; };
+		6B3E8E4C1C5F4EA00027D029 /* IndianaBannerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3E8E4B1C5F4EA00027D029 /* IndianaBannerCell.m */; };
+		6B3E8E4F1C5F4EBA0027D029 /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3E8E4E1C5F4EBA0027D029 /* BaseTableViewCell.m */; };
+		86432F146F27BE2AC376C5E2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06918FF0CFDD20DA3C56C0A8 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		06918FF0CFDD20DA3C56C0A8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B3E8DEA1C5B76ED0027D029 /* BeautifulIndiana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeautifulIndiana.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B3E8DEE1C5B76ED0027D029 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6B3E8DF01C5B76ED0027D029 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6B3E8DF11C5B76ED0027D029 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6B3E8DF31C5B76ED0027D029 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6B3E8DF41C5B76ED0027D029 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6B3E8DF71C5B76ED0027D029 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6B3E8DF91C5B76ED0027D029 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B3E8DFC1C5B76ED0027D029 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B3E8DFE1C5B76ED0027D029 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B3E8E2E1C5F09740027D029 /* TabBarConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarConfig.h; sourceTree = "<group>"; };
+		6B3E8E2F1C5F09740027D029 /* TabBarConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarConfig.m; sourceTree = "<group>"; };
+		6B3E8E321C5F274D0027D029 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		6B3E8E331C5F274D0027D029 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		6B3E8E351C5F27670027D029 /* YFDiscoveryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFDiscoveryViewController.h; sourceTree = "<group>"; };
+		6B3E8E361C5F27670027D029 /* YFDiscoveryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFDiscoveryViewController.m; sourceTree = "<group>"; };
+		6B3E8E381C5F277C0027D029 /* YFIndianaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFIndianaViewController.h; sourceTree = "<group>"; };
+		6B3E8E391C5F277C0027D029 /* YFIndianaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFIndianaViewController.m; sourceTree = "<group>"; };
+		6B3E8E3B1C5F27970027D029 /* YFLatestAnnouncementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFLatestAnnouncementViewController.h; sourceTree = "<group>"; };
+		6B3E8E3C1C5F27970027D029 /* YFLatestAnnouncementViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFLatestAnnouncementViewController.m; sourceTree = "<group>"; };
+		6B3E8E3E1C5F27AD0027D029 /* YFPersonalCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFPersonalCenterViewController.h; sourceTree = "<group>"; };
+		6B3E8E3F1C5F27AD0027D029 /* YFPersonalCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFPersonalCenterViewController.m; sourceTree = "<group>"; };
+		6B3E8E411C5F27BE0027D029 /* YFShoppingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFShoppingViewController.h; sourceTree = "<group>"; };
+		6B3E8E421C5F27BE0027D029 /* YFShoppingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFShoppingViewController.m; sourceTree = "<group>"; };
+		6B3E8E451C5F36FD0027D029 /* ToolMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolMacro.h; sourceTree = "<group>"; };
+		6B3E8E471C5F4A560027D029 /* HttpRequestTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpRequestTool.h; sourceTree = "<group>"; };
+		6B3E8E481C5F4A560027D029 /* HttpRequestTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpRequestTool.m; sourceTree = "<group>"; };
+		6B3E8E4A1C5F4EA00027D029 /* IndianaBannerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndianaBannerCell.h; sourceTree = "<group>"; };
+		6B3E8E4B1C5F4EA00027D029 /* IndianaBannerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndianaBannerCell.m; sourceTree = "<group>"; };
+		6B3E8E4D1C5F4EBA0027D029 /* BaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
+		6B3E8E4E1C5F4EBA0027D029 /* BaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
+		7DB2504B61F0FEE85E76E2E9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		D0B26A81A8D98AD663B27E51 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86432F146F27BE2AC376C5E2 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +77,8 @@
 			children = (
 				6B3E8DEC1C5B76ED0027D029 /* BeautifulIndiana */,
 				6B3E8DEB1C5B76ED0027D029 /* Products */,
+				6CEB6DD8025F92D07CD2D2EC /* Pods */,
+				EF6879A29A28F4607F9C4D13 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +93,11 @@
 		6B3E8DEC1C5B76ED0027D029 /* BeautifulIndiana */ = {
 			isa = PBXGroup;
 			children = (
+				6B3E8E461C5F4A2A0027D029 /* HttpReguestTool */,
+				6B3E8E441C5F36990027D029 /* Common */,
+				6B3E8E0D1C5F07B70027D029 /* Class */,
 				6B3E8DF01C5B76ED0027D029 /* AppDelegate.h */,
 				6B3E8DF11C5B76ED0027D029 /* AppDelegate.m */,
-				6B3E8DF31C5B76ED0027D029 /* ViewController.h */,
-				6B3E8DF41C5B76ED0027D029 /* ViewController.m */,
 				6B3E8DF61C5B76ED0027D029 /* Main.storyboard */,
 				6B3E8DF91C5B76ED0027D029 /* Assets.xcassets */,
 				6B3E8DFB1C5B76ED0027D029 /* LaunchScreen.storyboard */,
@@ -79,6 +115,281 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		6B3E8E0D1C5F07B70027D029 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				6B3E8E311C5F27380027D029 /* BaseController */,
+				6B3E8E2D1C5F09430027D029 /* TabBarConfig */,
+				6B3E8E181C5F07E60027D029 /* Indiana */,
+				6B3E8E1D1C5F07E60027D029 /* LatestAnnouncement */,
+				6B3E8E131C5F07E60027D029 /* Discovery */,
+				6B3E8E271C5F07E60027D029 /* Shopping */,
+				6B3E8E221C5F07E60027D029 /* PersonalCenter */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		6B3E8E131C5F07E60027D029 /* Discovery */ = {
+			isa = PBXGroup;
+			children = (
+				6B3E8E161C5F07E60027D029 /* ViewController */,
+				6B3E8E141C5F07E60027D029 /* Model */,
+				6B3E8E151C5F07E60027D029 /* View */,
+				6B3E8E171C5F07E60027D029 /* ViewModel */,
+			);
+			path = Discovery;
+			sourceTree = "<group>";
+		};
+		6B3E8E141C5F07E60027D029 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6B3E8E151C5F07E60027D029 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B3E8E161C5F07E60027D029 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6B3E8E351C5F27670027D029 /* YFDiscoveryViewController.h */,
+				6B3E8E361C5F27670027D029 /* YFDiscoveryViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		6B3E8E171C5F07E60027D029 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6B3E8E181C5F07E60027D029 /* Indiana */ = {
+			isa = PBXGroup;
+			children = (
+				6B3E8E1B1C5F07E60027D029 /* ViewController */,
+				6B3E8E191C5F07E60027D029 /* Model */,
+				6B3E8E1A1C5F07E60027D029 /* View */,
+				6B3E8E1C1C5F07E60027D029 /* ViewModel */,
+			);
+			path = Indiana;
+			sourceTree = "<group>";
+		};
+		6B3E8E191C5F07E60027D029 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6B3E8E1A1C5F07E60027D029 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B3E8E4A1C5F4EA00027D029 /* IndianaBannerCell.h */,
+				6B3E8E4B1C5F4EA00027D029 /* IndianaBannerCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B3E8E1B1C5F07E60027D029 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6B3E8E381C5F277C0027D029 /* YFIndianaViewController.h */,
+				6B3E8E391C5F277C0027D029 /* YFIndianaViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		6B3E8E1C1C5F07E60027D029 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6B3E8E1D1C5F07E60027D029 /* LatestAnnouncement */ = {
+			isa = PBXGroup;
+			children = (
+				6B3E8E201C5F07E60027D029 /* ViewController */,
+				6B3E8E1E1C5F07E60027D029 /* Model */,
+				6B3E8E1F1C5F07E60027D029 /* View */,
+				6B3E8E211C5F07E60027D029 /* ViewModel */,
+			);
+			path = LatestAnnouncement;
+			sourceTree = "<group>";
+		};
+		6B3E8E1E1C5F07E60027D029 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6B3E8E1F1C5F07E60027D029 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B3E8E201C5F07E60027D029 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6B3E8E3B1C5F27970027D029 /* YFLatestAnnouncementViewController.h */,
+				6B3E8E3C1C5F27970027D029 /* YFLatestAnnouncementViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		6B3E8E211C5F07E60027D029 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6B3E8E221C5F07E60027D029 /* PersonalCenter */ = {
+			isa = PBXGroup;
+			children = (
+				6B3E8E251C5F07E60027D029 /* ViewController */,
+				6B3E8E231C5F07E60027D029 /* Model */,
+				6B3E8E241C5F07E60027D029 /* View */,
+				6B3E8E261C5F07E60027D029 /* ViewModel */,
+			);
+			path = PersonalCenter;
+			sourceTree = "<group>";
+		};
+		6B3E8E231C5F07E60027D029 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6B3E8E241C5F07E60027D029 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B3E8E251C5F07E60027D029 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6B3E8E3E1C5F27AD0027D029 /* YFPersonalCenterViewController.h */,
+				6B3E8E3F1C5F27AD0027D029 /* YFPersonalCenterViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		6B3E8E261C5F07E60027D029 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6B3E8E271C5F07E60027D029 /* Shopping */ = {
+			isa = PBXGroup;
+			children = (
+				6B3E8E2A1C5F07E60027D029 /* ViewController */,
+				6B3E8E281C5F07E60027D029 /* Model */,
+				6B3E8E291C5F07E60027D029 /* View */,
+				6B3E8E2B1C5F07E60027D029 /* ViewModel */,
+			);
+			path = Shopping;
+			sourceTree = "<group>";
+		};
+		6B3E8E281C5F07E60027D029 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6B3E8E291C5F07E60027D029 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B3E8E2A1C5F07E60027D029 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6B3E8E411C5F27BE0027D029 /* YFShoppingViewController.h */,
+				6B3E8E421C5F27BE0027D029 /* YFShoppingViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		6B3E8E2B1C5F07E60027D029 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6B3E8E2D1C5F09430027D029 /* TabBarConfig */ = {
+			isa = PBXGroup;
+			children = (
+				6B3E8E2E1C5F09740027D029 /* TabBarConfig.h */,
+				6B3E8E2F1C5F09740027D029 /* TabBarConfig.m */,
+			);
+			path = TabBarConfig;
+			sourceTree = "<group>";
+		};
+		6B3E8E311C5F27380027D029 /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				6B3E8E321C5F274D0027D029 /* BaseViewController.h */,
+				6B3E8E331C5F274D0027D029 /* BaseViewController.m */,
+				6B3E8E4D1C5F4EBA0027D029 /* BaseTableViewCell.h */,
+				6B3E8E4E1C5F4EBA0027D029 /* BaseTableViewCell.m */,
+			);
+			path = BaseController;
+			sourceTree = "<group>";
+		};
+		6B3E8E441C5F36990027D029 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				6B3E8E451C5F36FD0027D029 /* ToolMacro.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		6B3E8E461C5F4A2A0027D029 /* HttpReguestTool */ = {
+			isa = PBXGroup;
+			children = (
+				6B3E8E471C5F4A560027D029 /* HttpRequestTool.h */,
+				6B3E8E481C5F4A560027D029 /* HttpRequestTool.m */,
+			);
+			path = HttpReguestTool;
+			sourceTree = "<group>";
+		};
+		6CEB6DD8025F92D07CD2D2EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7DB2504B61F0FEE85E76E2E9 /* Pods.debug.xcconfig */,
+				D0B26A81A8D98AD663B27E51 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EF6879A29A28F4607F9C4D13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06918FF0CFDD20DA3C56C0A8 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +397,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6B3E8E011C5B76ED0027D029 /* Build configuration list for PBXNativeTarget "BeautifulIndiana" */;
 			buildPhases = (
+				AD699D6703B2B412508C069F /* Check Pods Manifest.lock */,
 				6B3E8DE61C5B76ED0027D029 /* Sources */,
 				6B3E8DE71C5B76ED0027D029 /* Frameworks */,
 				6B3E8DE81C5B76ED0027D029 /* Resources */,
+				6896A46DD3DEC2B2A6CA63C7 /* Embed Pods Frameworks */,
+				FF19D7A99395B4E5B5F287E0 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,14 +458,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6896A46DD3DEC2B2A6CA63C7 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD699D6703B2B412508C069F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FF19D7A99395B4E5B5F287E0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6B3E8DE61C5B76ED0027D029 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B3E8DF51C5B76ED0027D029 /* ViewController.m in Sources */,
+				6B3E8E4F1C5F4EBA0027D029 /* BaseTableViewCell.m in Sources */,
+				6B3E8E431C5F27BE0027D029 /* YFShoppingViewController.m in Sources */,
+				6B3E8E491C5F4A560027D029 /* HttpRequestTool.m in Sources */,
+				6B3E8E341C5F274D0027D029 /* BaseViewController.m in Sources */,
 				6B3E8DF21C5B76ED0027D029 /* AppDelegate.m in Sources */,
+				6B3E8E401C5F27AD0027D029 /* YFPersonalCenterViewController.m in Sources */,
+				6B3E8E371C5F27670027D029 /* YFDiscoveryViewController.m in Sources */,
+				6B3E8E3D1C5F27970027D029 /* YFLatestAnnouncementViewController.m in Sources */,
+				6B3E8E3A1C5F277C0027D029 /* YFIndianaViewController.m in Sources */,
+				6B3E8E4C1C5F4EA00027D029 /* IndianaBannerCell.m in Sources */,
 				6B3E8DEF1C5B76ED0027D029 /* main.m in Sources */,
+				6B3E8E301C5F09740027D029 /* TabBarConfig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,23 +632,31 @@
 		};
 		6B3E8E021C5B76ED0027D029 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DB2504B61F0FEE85E76E2E9 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: qiukai ren (RNZ6EN23CN)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: qiukai ren (RNZ6EN23CN)";
 				INFOPLIST_FILE = BeautifulIndiana/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kuye.BeautifulIndiana;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xxy.butiful;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "de45c170-1a93-4096-9920-400f6c2ca141";
 			};
 			name = Debug;
 		};
 		6B3E8E031C5B76ED0027D029 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0B26A81A8D98AD663B27E51 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: qiukai ren (RNZ6EN23CN)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: qiukai ren (RNZ6EN23CN)";
 				INFOPLIST_FILE = BeautifulIndiana/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kuye.BeautifulIndiana;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xxy.butiful;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "de45c170-1a93-4096-9920-400f6c2ca141";
 			};
 			name = Release;
 		};
@@ -300,6 +679,7 @@
 				6B3E8E031C5B76ED0027D029 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
