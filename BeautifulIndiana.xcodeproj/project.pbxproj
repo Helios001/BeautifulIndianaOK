@@ -19,9 +19,12 @@
 		6B3E8E3D1C5F27970027D029 /* YFLatestAnnouncementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3E8E3C1C5F27970027D029 /* YFLatestAnnouncementViewController.m */; };
 		6B3E8E401C5F27AD0027D029 /* YFPersonalCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3E8E3F1C5F27AD0027D029 /* YFPersonalCenterViewController.m */; };
 		6B3E8E431C5F27BE0027D029 /* YFShoppingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3E8E421C5F27BE0027D029 /* YFShoppingViewController.m */; };
-		6B3E8E491C5F4A560027D029 /* HttpRequestTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3E8E481C5F4A560027D029 /* HttpRequestTool.m */; };
 		6B3E8E4C1C5F4EA00027D029 /* IndianaBannerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3E8E4B1C5F4EA00027D029 /* IndianaBannerCell.m */; };
 		6B3E8E4F1C5F4EBA0027D029 /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3E8E4E1C5F4EBA0027D029 /* BaseTableViewCell.m */; };
+		6B3E8E5A1C60765C0027D029 /* YFNetworkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3E8E571C60765C0027D029 /* YFNetworkRequest.m */; };
+		6B3E8E5B1C60765C0027D029 /* YFDataService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3E8E591C60765C0027D029 /* YFDataService.m */; };
+		6B3E8E5F1C60842B0027D029 /* YFDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3E8E5E1C60842B0027D029 /* YFDataBase.m */; };
+		6B3E8E631C608EEC0027D029 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3E8E621C608EEC0027D029 /* Item.m */; };
 		86432F146F27BE2AC376C5E2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06918FF0CFDD20DA3C56C0A8 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -50,12 +53,18 @@
 		6B3E8E411C5F27BE0027D029 /* YFShoppingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFShoppingViewController.h; sourceTree = "<group>"; };
 		6B3E8E421C5F27BE0027D029 /* YFShoppingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFShoppingViewController.m; sourceTree = "<group>"; };
 		6B3E8E451C5F36FD0027D029 /* ToolMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolMacro.h; sourceTree = "<group>"; };
-		6B3E8E471C5F4A560027D029 /* HttpRequestTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpRequestTool.h; sourceTree = "<group>"; };
-		6B3E8E481C5F4A560027D029 /* HttpRequestTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpRequestTool.m; sourceTree = "<group>"; };
 		6B3E8E4A1C5F4EA00027D029 /* IndianaBannerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndianaBannerCell.h; sourceTree = "<group>"; };
 		6B3E8E4B1C5F4EA00027D029 /* IndianaBannerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndianaBannerCell.m; sourceTree = "<group>"; };
 		6B3E8E4D1C5F4EBA0027D029 /* BaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
 		6B3E8E4E1C5F4EBA0027D029 /* BaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
+		6B3E8E561C60765C0027D029 /* YFNetworkRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFNetworkRequest.h; sourceTree = "<group>"; };
+		6B3E8E571C60765C0027D029 /* YFNetworkRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFNetworkRequest.m; sourceTree = "<group>"; };
+		6B3E8E581C60765C0027D029 /* YFDataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFDataService.h; sourceTree = "<group>"; };
+		6B3E8E591C60765C0027D029 /* YFDataService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFDataService.m; sourceTree = "<group>"; };
+		6B3E8E5D1C60842B0027D029 /* YFDataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFDataBase.h; sourceTree = "<group>"; };
+		6B3E8E5E1C60842B0027D029 /* YFDataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFDataBase.m; sourceTree = "<group>"; };
+		6B3E8E611C608EEC0027D029 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		6B3E8E621C608EEC0027D029 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
 		7DB2504B61F0FEE85E76E2E9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		D0B26A81A8D98AD663B27E51 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,6 +102,7 @@
 		6B3E8DEC1C5B76ED0027D029 /* BeautifulIndiana */ = {
 			isa = PBXGroup;
 			children = (
+				6B3E8E5C1C60842B0027D029 /* YFDataBaseTools */,
 				6B3E8E461C5F4A2A0027D029 /* HttpReguestTool */,
 				6B3E8E441C5F36990027D029 /* Common */,
 				6B3E8E0D1C5F07B70027D029 /* Class */,
@@ -367,10 +377,23 @@
 		6B3E8E461C5F4A2A0027D029 /* HttpReguestTool */ = {
 			isa = PBXGroup;
 			children = (
-				6B3E8E471C5F4A560027D029 /* HttpRequestTool.h */,
-				6B3E8E481C5F4A560027D029 /* HttpRequestTool.m */,
+				6B3E8E561C60765C0027D029 /* YFNetworkRequest.h */,
+				6B3E8E571C60765C0027D029 /* YFNetworkRequest.m */,
+				6B3E8E581C60765C0027D029 /* YFDataService.h */,
+				6B3E8E591C60765C0027D029 /* YFDataService.m */,
 			);
 			path = HttpReguestTool;
+			sourceTree = "<group>";
+		};
+		6B3E8E5C1C60842B0027D029 /* YFDataBaseTools */ = {
+			isa = PBXGroup;
+			children = (
+				6B3E8E611C608EEC0027D029 /* Item.h */,
+				6B3E8E621C608EEC0027D029 /* Item.m */,
+				6B3E8E5D1C60842B0027D029 /* YFDataBase.h */,
+				6B3E8E5E1C60842B0027D029 /* YFDataBase.m */,
+			);
+			path = YFDataBaseTools;
 			sourceTree = "<group>";
 		};
 		6CEB6DD8025F92D07CD2D2EC /* Pods */ = {
@@ -511,15 +534,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B3E8E631C608EEC0027D029 /* Item.m in Sources */,
 				6B3E8E4F1C5F4EBA0027D029 /* BaseTableViewCell.m in Sources */,
 				6B3E8E431C5F27BE0027D029 /* YFShoppingViewController.m in Sources */,
-				6B3E8E491C5F4A560027D029 /* HttpRequestTool.m in Sources */,
 				6B3E8E341C5F274D0027D029 /* BaseViewController.m in Sources */,
+				6B3E8E5A1C60765C0027D029 /* YFNetworkRequest.m in Sources */,
 				6B3E8DF21C5B76ED0027D029 /* AppDelegate.m in Sources */,
 				6B3E8E401C5F27AD0027D029 /* YFPersonalCenterViewController.m in Sources */,
 				6B3E8E371C5F27670027D029 /* YFDiscoveryViewController.m in Sources */,
 				6B3E8E3D1C5F27970027D029 /* YFLatestAnnouncementViewController.m in Sources */,
+				6B3E8E5F1C60842B0027D029 /* YFDataBase.m in Sources */,
 				6B3E8E3A1C5F277C0027D029 /* YFIndianaViewController.m in Sources */,
+				6B3E8E5B1C60765C0027D029 /* YFDataService.m in Sources */,
 				6B3E8E4C1C5F4EA00027D029 /* IndianaBannerCell.m in Sources */,
 				6B3E8DEF1C5B76ED0027D029 /* main.m in Sources */,
 				6B3E8E301C5F09740027D029 /* TabBarConfig.m in Sources */,

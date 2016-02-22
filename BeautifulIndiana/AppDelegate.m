@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "TabBarConfig.h"
+#import <AFNetworkActivityIndicatorManager.h>
 
 @interface AppDelegate ()
 
@@ -18,6 +19,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [[AFNetworkActivityIndicatorManager sharedManager] setEnabled:YES];
     
     // 设置主窗口,并设置根控制器
     self.window = [[UIWindow alloc]init];

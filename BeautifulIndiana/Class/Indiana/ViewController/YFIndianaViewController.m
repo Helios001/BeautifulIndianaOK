@@ -32,9 +32,9 @@
 
 -(void)initTableView{
     _indianaTableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStyleGrouped];
-    _indianaTableView.delegate = self;
-    _indianaTableView.dataSource = self;
-    _indianaTableView.backgroundColor = RGB_COLOR(248, 248, 248, 1.0);
+    _indianaTableView.delegate      = self;
+    _indianaTableView.dataSource    = self;
+    _indianaTableView.backgroundColor = RGB_COLOR(0, 255, 55, 1.0);//RGB_COLOR(248, 248, 248, 1.0);
     _indianaTableView.separatorStyle = UITableViewCellSeparatorStyleSingleLine;
     _indianaTableView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     [self.view addSubview:_indianaTableView];
@@ -47,11 +47,11 @@
 
 #pragma mark UITableView
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return 2;
+    return 0;
 }
 
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
-    return 2;
+    return 0;
 }
 
 -(UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{

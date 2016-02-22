@@ -7,3 +7,4 @@ pod 'MJRefresh', '~> 3.1.0'
 pod 'MJExtension', '~> 3.0.10'
 pod 'SDWebImage', '~>3.7'
 pod 'SDCycleScrollView','~> 1.6' #轮播
+pod 'FMDB'
